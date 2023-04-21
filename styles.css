@@ -42,7 +42,7 @@ nav li {
     display: inline-block;
     margin-top: 2%;
     margin-bottom: 2%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -216,7 +216,7 @@ article h2 {
 }
 
 @media screen and (max-width: 640px) {
-    /* CSS rules for screens less than or equal 640 */
+    /* CSS rules for screens between 0 - 400px */
 
 section {
     flex-direction: column;
@@ -235,7 +235,7 @@ nav li {
 }
 
 #banner p {
-    font-size: .75rem;
+    font-size: .5rem;
 }
 
 nav {
@@ -285,30 +285,22 @@ article h2 {
 }
 
 #octopus {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 80%;
     max-height: 70%;
     border-radius: .9rem;
 }
 
 #penne {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 80%;
     max-height: 70%;
     border-radius: .9rem;
 }
 
 #kabob {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 80%;
     max-height: 70%;
     border-radius: .9rem;
 }
 
 }
+
